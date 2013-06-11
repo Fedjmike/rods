@@ -177,10 +177,10 @@ int main(int argc, char** argv) {
         const int vertexNumber = 7;
 
         Vertex vertices[vertexNumber] = {{Vector<2>({0.0, 0.0}), false},     //0, red
-                                         {Vector<2>(fromPolar(0.15, angle)), true},     //1, green
+                                         {Vector<2>({0.3, 0.0}) + fromPolar(0.15, angle), true},     //1, green
                                          {Vector<2>({0.0, 0.0}), false},     //2, blue
                                          {Vector<2>({0.0, 0.0}), false},     //3, red
-                                         {Vector<2>({-0.4, -0.05}), true},     //4, green
+                                         {Vector<2>({-0.1, -0.08}), true},     //4, green
                                          {Vector<2>({0.0, 0.0}), false},     //6, green
                                          {Vector<2>({0.0, 0.0}), false}};    //7, blue
 
