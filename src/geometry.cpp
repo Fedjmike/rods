@@ -11,5 +11,5 @@ Geometry (const Geometry& g) {
     this->edges = g.edges;
     this->triangles = g.triangles;
 
-    
-}
+
+}*/
