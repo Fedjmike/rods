@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Geometry::Geometry (list<Vertex> v, list<Edge> e, list<Triangle> t):
+/*Geometry::Geometry (list<Vertex> v, list<Edge> e, list<Triangle> t):
     vertices(v), edges(e), triangles(t) {
 }
 

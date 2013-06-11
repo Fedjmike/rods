@@ -1,5 +1,6 @@
 ifeq ($(OS),Windows_NT)
 	out_extension = .exe
+	ldflags = -lmingw32
 endif
 
 out_release = bin/release/rods$(out_extension)
@@ -15,7 +16,7 @@ objects_debug = $(patsubst src/%, obj/debug/%.o, $(modules))
 
 cflags = -Wall -Wextra -std=c++0x
 cflags_release = -O3
-ldflags = -lmingw32 -lSDLmain -lSDL
+ldflags += -lSDLmain -lSDL
 
 $(out_release): $(objects_release)
 	g++ $(objects_release) $(ldflags) -o $(out_release)
