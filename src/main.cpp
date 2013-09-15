@@ -4,7 +4,6 @@
 #include <sstream>
 
 #include "SDL/SDL.h"
-#include "SDL/SDL_ttf.h"
 
 #include "vector.hpp"
 #include "drawing.hpp"

@@ -35,3 +35,4 @@ clean:
 	rm -f $(out_debug)
 	rm -f obj/debug/*.o
 	rm -f obj/release/*.o
+	
